@@ -1,4 +1,4 @@
-#Automated Detection and Quantification of Neutrophil Infiltration in Ulcerative Colitis Biopsies Using YOLOv5
+# Automated Detection and Quantification of Neutrophil Infiltration in Ulcerative Colitis Biopsies Using YOLOv5
 
 ![image](https://github.com/junfrankohara/neutrophils_detection/blob/main/readme.png)
 Pipeline Overview
