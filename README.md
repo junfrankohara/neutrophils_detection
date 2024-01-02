@@ -7,7 +7,7 @@ Pipeline Overview
 - To run this code, you need to upload models and images to your Google Drive.
 - The segmentation model and neutrophil detection models are available from "Releases"
 - Environment Compatibility:
-  - Platform: Google ColaboratoryPython: 3.10.12
+  - Python: 3.10.12
   - PyTorch: 2.1.0
   - segmentation_models_pytorch: 0.2.1
   - Pillow: 10.0.1
