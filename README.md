@@ -14,15 +14,15 @@
 
 # Setup and Execution
 
-    - Models and Images: Upload required models and images to your Google Drive.
-    - Availability: The segmentation and neutrophil detection models can be downloaded from the "Releases" section of this repository.
+- Models and Images: Upload required models and images to your Google Drive.
+- Availability: The segmentation and neutrophil detection models can be downloaded from the "Releases" section of this repository.
 
 # Environment Compatibility
 
 Ensure the following software versions for optimal compatibility:
 
     - Python: 3.10.12
-    -PyTorch: 2.1.0
+    - PyTorch: 2.1.0
     - segmentation_models_pytorch: 0.2.1
     - Pillow: 10.0.1
 
