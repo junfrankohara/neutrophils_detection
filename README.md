@@ -9,7 +9,7 @@
 
     - Whole Slide Imaging (WSI) Processing: Requires scanning at 40x magnification.
     - Semantic Segmentation: Utilizes a model to segment epithelium and lamina propria regions within the WSIs.
-    - Neutrophil Detection: Implements YOLO v5 architecture to process 320x320 pixel (75x75μm) patches, detecting neutrophils in both segmented regions. The model provides a total neutrophil count, adjusted per region (0.66mm²), and predicts pathological scores (PHRI = 0, 1, ≥2; NHI = ≤1, 2, ≥3).
+    - Neutrophil Detection: Implements YOLO v5 architecture to process 320x320 pixel (75x75 μm) patches, detecting neutrophils in both segmented regions. The model provides a total neutrophil count, adjusted per region (1 mm²), and predicts pathological scores (PHRI = 0, 1, ≥2; NHI = ≤1, 2, ≥3).
     - Visualization: Generates images highlighting detected neutrophils, marked in distinct colors for easy identification (red for epithelium, blue for lamina propria at low magnification; red and green rectangles at high magnification for lamina propria and epithelium, respectively). Outputs a PDF report with detected neutrophils and pathological scores.
 
 # Setup and Execution
